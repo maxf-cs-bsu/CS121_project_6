@@ -19,9 +19,9 @@ int main()
   make a stringstream with te name of "ss"
   make varibles for the data with intA, intB, text
   repeat process with temp varibles (tempA, tempB, tempText)
-  
   create a string line for the current line in data.csv
   open data.csv in a ifstream object
+
   while( able to read a currentLine)
     read until "," and put the result into intA
     do the same for intB
