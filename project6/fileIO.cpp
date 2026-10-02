@@ -17,7 +17,7 @@ int main(){
   inFile.open("data.csv");
   while(getline(inFile, currentLine)){
     ss.clear();
-    ss.str("");
+    ss.str(currentLine);
 
     std::getline(ss, tempintA, ',');
     std::getline(ss, tempintB, ',');
@@ -33,8 +33,8 @@ int main(){
 
     for(int i = 0; i < sum; i++){
       std::cout << text;
-    }
-
+    } // end of if
+    std::cout << std::endl;
   } // end of while
 
   return 0;
